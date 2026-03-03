@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guerro Bikers Services</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<div id="float_button">
+    <a href="https://wa.me/573112243313/?text=Hola%20Guerrero,%20estoy%20interesado%20en%20agendar%20una%20cita%20para:%20"
+        target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-16 h-16 rounded-full
+            flex items-center justify-center
+            shadow-xl hover:bg-green-600
+            transition">
+        <span class="absolute inline-flex h-2/3 w-2/3 rounded-full bg-sky-400 opacity-50
+                animate-[ping_2s_cubic-bezier(0,0,0.5,1)_infinite]" aria-hidden="true"></span>
+
+        <img src="https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,w_72/v1767971629/wh_sin_fondo_ercvrm.png"
+            alt="" class="relative w-8 h-8" loading="lazy" decoding="async">
+    </a>
+</div>
+
+<body style="--nav-h:72px" class="pt-[var(--nav-h)]">
+    <nav class="bg-[#1B418C] text-white fixed top-0 left-0 w-full z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-[72px]">
+                <!-- Logo -->
+                <figure id="logo" class="flex items-center">
+                    <a href="#">
+                        <img src="https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,w_48/v1760369717/LOGO_ALTA_rjiq6q.png"
+                            srcset="
+                            https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,w_48/v1760369717/LOGO_ALTA_rjiq6q.png 1x,
+                            https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,w_96/v1760369717/LOGO_ALTA_rjiq6q.png 2x
+                            " alt="Logo Guerrero" class="h-12 w-12 rounded-full object-cover" decoding="async" />
+                    </a>
+                </figure>
+
+                <!-- Texto -->
+                <p class="hidden sm:block text-sm text-center">
+                    ¡Expertos en lo que hacemos!
+                </p>
+
+                <section id="menu_desktop" class="flex items-center">
+
+                    <!-- Menú escritorio -->
+                    <ul class="hidden md:flex space-x-6">
+                        <li><a href="./about.html" class="hover:text-[#05C7F2]">Nosotros</a></li>
+                    </ul>
+
+                    <!-- Botón hamburguesa -->
+                    <button id="menu-btn"
+                        class="md:hidden ml-4 flex flex-col justify-center items-center w-8 h-8 group space-y-1.5">
+                        <span class="line w-6 h-0.5 bg-white transition-all"></span>
+                        <span class="line w-6 h-0.5 bg-white transition-all"></span>
+                        <span class="line w-6 h-0.5 bg-white transition-all"></span>
+                    </button>
+                </section>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="mobile-menu" class="fixed top-[74px] right-4 w-38 bg-[#1B418C] text-white rounded-xl shadow-xl
+                max-h-0 overflow-hidden transition-all duration-500 ease-in-out
+                md:hidden z-40 shadow-md">
+
+        <div class="flex flex-col items-center space-y-4 py-4">
+            <ul>
+                <li><a href="./about.html" class="hover:text-[#05C7F2]">Nosotros</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <main class="relative min-h-[calc(100dvh-72px)]">
+        <section id="whatIs"
+            class="relative md:sticky md:top-0 min-h-[calc(100dvh-72px)] px-6 py-16 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto">
+            <figure class=" md:w-1/2 max-h-[500px] overflow-hidden rounded-2xl shadow-xl/30">
+                <img src="https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_800/v1766900357/20250924_093850_xcuh4x.jpg"
+                    srcset="
+                https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_800/v1766900357/20250924_093850_xcuh4x.jpg,
+                https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_400/v1766900357/20250924_093850_xcuh4x.jpg
+            " sizes="(max-width: 768px) 100vw, 50vw" alt="Imagen del taller" loading="lazy" decoding="async"
+                    class="w-full h-full object-cover">
+            </figure>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#1B418C] mb-4">Nuestros Mandamientos como Guerrero
+                    Bikers Services:</h2>
+                <p class="text-gray-600 text-lg leading-relaxed">Fernando Guerrero, con más de 15 años de experiencia en
+                    BMW, lidera un equipo que garantiza cada trabajo. La transparencia es fundamental: explicamos el
+                    "qué", "cómo" y "por qué" antes de intervenir tu moto y te mostramos las piezas reemplazadas si lo
+                    deseas. Además, te brindamos asesoría telefónica en carretera para resolver imprevistos y
+                    acompañarte en cada viaje.</p>
+            </div>
+        </section>
+
+        <div class="relative md:sticky md:top-0 bg-[#E0FFFF]">
+            <section id="whatFaind"
+                class="min-h-fit md:min-h-[calc(100dvh-72px)] px-6 py-16 flex flex-col md:flex-row items-center justify-center gap-10 max-w-7xl mx-auto ">
+                <figure class=" md:w-1/2 max-h-[500px] overflow-hidden rounded-2xl shadow-xl/30">
+                    <img src="https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_800/v1767073216/edited_dac7ph.jpg"
+                        srcset="
+                    https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_800/v1767073216/edited_dac7ph.jpg,
+                    https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_400/v1767073216/edited_dac7ph.jpg
+                " alt="Imagen del taller" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                </figure>
+
+                <div class="md:w-1/2 text-center md:text-left">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#1B418C] mb-4">¿Qué nos Mueve?</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed">El <b>espirito Guerrero </b>es ser el taller BMW
+                        líder en Bogotá y Colombia, reconocido por nuestra transparencia, excelencia técnica y calidez
+                        humana. Queremos ser la primera opción cuando busques un taller BMW de confianza, un equipo
+                        sólido con acceso directo a distribuidores, diagnósticos precisos y una comunidad de clientes
+                        leales que valoran nuestra honestidad, trabajo arduo e impulsado por la pasión por las motos BMW
+                        y el compromiso con la excelencia.</p>
+                </div>
+
+                <figure class="md:w-1/2 max-h-[500px] overflow-hidden rounded-2xl shadow-xl/30">
+                    <img src="https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_800/v1767073611/2_m9crfg.jpg"
+                        srcset="
+                    https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_800/v1767073611/2_m9crfg.jpg,
+                    https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,dpr_auto,w_400/v1767073611/2_m9crfg.jpg
+                " alt="Imagen del taller" class="w-full h-full object-cover" loading="lazy" decoding="async">
+                </figure>
+            </section>
+        </div>
+
+        <div>
+            <section id="ourService"
+                class="sticky top-0 min-h-[calc(100dvh-72px)] px-6 py-10 flex flex-col items-center justify-center max-w-7xl mx-auto bg-[#FFFFFF]">
+                <div class="w-full">
+
+                    <!-- Título -->
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#1B418C] mb-6 text-center">
+                        Nuestros servicios
+                    </h2>
+
+                    <!-- Grid de servicios -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl/30 transition">
+                            <h3 class="font-semibold text-[#1B418C] mb-2">Mantenimientos BMW</h3>
+                            <p class="text-sm text-gray-600">
+                                Alarga la vida de tu moto con un <strong>mantenimiento preventivo BMW o mantenimiento
+                                    correctivo BMW en Bogotá.</strong> Revisión exhaustiva, lubricación, ajustes cambio
+                                de
+                                filtros para un rendimiento óptimo y seguro.
+                            </p>
+                        </article>
+
+                        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl/30 transition">
+                            <h3 class="font-semibold text-[#1B418C] mb-2">Reparación Integral BMW</h3>
+                            <p class="text-sm text-gray-600">
+                                Solucionamos cualquier avería con una <strong>reparación integral para tu BMW.</strong>
+                                Diagnóstico preciso, repuestos originales y técnicos experimentados para que tu moto
+                                vuelva
+                                a rodar como nueva.
+                            </p>
+                        </article>
+
+                        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl/30 transition">
+                            <h3 class="font-semibold text-[#1B418C] mb-2">Pintura Especializada BMW</h3>
+                            <p class="text-sm text-gray-600">
+                                Renueva el aspecto de tu BMW con nuestro servicio de <strong>pintura
+                                    especializada</strong>.Utilizamos materiales de alta calidad y técnicas de
+                                vanguardia
+                                para lograr un acabado impecable y duradero.
+                            </p>
+                        </article>
+
+                        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl/30 transition">
+                            <h3 class="font-semibold text-[#1B418C] mb-2">Instalación de Accesorios BMW</h3>
+                            <p class="text-sm text-gray-600">
+                                Personaliza tu moto con nuestra amplia selección de <strong>accesorios BMW originales y
+                                    accesorios homologados BMW</strong>. Instalación profesional y garantía de
+                                compatibilidad.
+                            </p>
+                        </article>
+
+                        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl/30 transition">
+                            <h3 class="font-semibold text-[#1B418C] mb-2">Reparación de colisiones BMW</h3>
+                            <p class="text-sm text-gray-600">
+                                Recupera tu moto después de un Accidente con repuestos originales y técnicos
+                                especializados.
+                                Devolvemos a tu moto su aspecto original y garantizamos la seguridad en la conducción.
+                            </p>
+                        </article>
+
+                        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl/30 transition">
+                            <h3 class="font-semibold text-[#1B418C] mb-2">Venta de motos BMW</h3>
+                            <p class="text-sm text-gray-600">
+                                Encuentra a tu compañera BMW ideal para que te acompañe en cualquier travesia. Filtramos
+                                las
+                                motocicletas con el fin de ofrecerte la de mejor estado y si la compras con nosotros,
+                                <strong>te obsequiamos el peritaje.</strong>
+                            </p>
+                        </article>
+
+                        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl/30 transition">
+                            <h3 class="font-semibold text-[#1B418C] mb-2">Revisiones previaje</h3>
+                            <p class="text-sm text-gray-600">
+                                Para ir con confianza por la ruta lo mejor que puedes hacer es una <strong>revisión
+                                    previaje</strong> donde le revisaremos niveles de todos los liquidos, pastillas y
+                                correcto ajuste de sus piezas para que tu viaje sea inolvidable.
+                            </p>
+                        </article>
+
+                        <article class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl/30 transition">
+                            <h3 class="font-semibold text-[#1B418C] mb-2">Peritajes</h3>
+                            <p class="text-sm text-gray-600">
+                                <strong>El peritaje de tu motocicleta BMW</strong> debe ser realizado por expertos en la
+                                marca.Nuestro equipo especializado te brinda información precisa y confiable para que
+                                tomes
+                                decisiones totalmente informadas.
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-[#1B418C] text-white py-6">
+        <div class="container mx-auto px-4">
+            <div
+                class="border-b pb-5 border-gray-300 flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left gap-10">
+
+                <figure id="first_colum_footer"
+                    class="flex flex-col items-center justify-center gap-4 text-center w-full md:w-auto">
+                    <a href="#">
+                        <img src="https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,w_160/v1760369717/LOGO_ALTA_rjiq6q.png"
+                            srcset="
+                                https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,w_160/v1760369717/LOGO_ALTA_rjiq6q.png 1x,
+                                https://res.cloudinary.com/dbrbr4ist/image/upload/f_auto,q_auto,w_320/v1760369717/LOGO_ALTA_rjiq6q.png 2x
+                            " sizes="160px" alt="Logo Guerrero" class="w-40 h-40 rounded-full object-cover mx-auto"
+                            loading="lazy" decoding="async" />
+                    </a>
+                </figure>
+
+                <section id="second_colum_footer">
+                    <h3 class="font-bold mb-2">Info general</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="#" class="hover:text-[#05C7F2]">Sobre nosotros</a>
+                        </li>
+                        <!--    <li><a href="#" class="hover:text-[var(--logo-ligth-blue)]" target="_blank"
+                                rel="noopener noreferrer">Políticas de privacidad</a></li>
+                        <li><a href="#" class="hover:text-[var(--logo-ligth-blue)]" target="_blank"
+                                rel="noopener noreferrer">Términos y condiciones</a></li> -->
+                        <li>Nuestras redes</li>
+                    </ul>
+
+                    <div class="flex justify-center space-x-2 mt-2">
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/share/1YUfdvDm2W/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook" class="transition-opacity hover:opacity-80">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-labelledby="fbTitle">
+                                <title id="fbTitle">Facebook</title>
+                                <rect x="2" y="2" width="20" height="20" rx="4" ry="4" fill="#05C7F2" />
+                                <path
+                                    d="M15.5 8.5h-1.4c-.4 0-.8.3-.8.8v1h2.2l-.3 2.1h-1.9V19h-2.2v-6.6h-1.8v-2.1h1.8V9.6c0-1.6 1.1-2.8 2.7-2.8.8 0 1.5.1 1.7.2v2z"
+                                    fill="#F2F2F2" />
+                            </svg>
+                        </a>
+
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/guerrerobikersservices?igsh=MWFvZWpuNG12ODRjNg=="
+                            target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+                            class="transition-opacity hover:opacity-80">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-labelledby="igTitle">
+                                <title id="igTitle">Instagram</title>
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="#C13584" />
+                                <circle cx="12" cy="12" r="3.2" fill="#ffffffff" />
+                                <circle cx="12" cy="12" r="2.5" fill="#C13584" />
+                                <circle cx="17.5" cy="6.5" r="0.9" fill="#ffffffff" />
+                            </svg>
+                        </a>
+                    </div>
+                </section>
+
+                <section id="tird_colum_footer">
+                    <h3 class="font-bold mb-2">Servicios y ubicación</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="https://wa.me/573134498177/?text=Hola%20Guerrero,%20estoy%20interesado%20en%20agendar%20una%20cita%20para:%20"
+                                target="_blank" rel="noopener noreferrer" class="hover:text-[#05C7F2]">Agendamiento</a>
+                        </li>
+                        <li><a href="https://maps.app.goo.gl/dbEgAST3b6aTtSQBA" class="hover:text-[#05C7F2]"
+                                target="_blank" rel="noopener noreferrer">¿Como llego?</a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Línea inferior -->
+            <small class="block pt-3 text-center text-xs text-[var(--gray)]">
+                <p>© Año 2026 Mi Marca. Todos los derechos reservados.</p>
+                <p class="text-sm text-[var(--white)]">Expertos en lo que hacemos.</p>
+            </small>
+        </div>
+    </footer>
+</body>
+<script src="base.js" defer></script>
+
+</html>
